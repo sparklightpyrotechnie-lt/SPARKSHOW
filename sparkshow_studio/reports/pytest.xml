@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="1" failures="0" skipped="0" tests="1" time="0.429" timestamp="2026-09-28T11:54:34.839606+00:00" hostname="62ae301230dd"><testcase classname="" name="tests.reports.test_ranges" time="0.000"><error message="collection failure">ImportError while importing test module '/mnt/data/sparkshow_fix/sparkshow_studio/loader/tests/reports/test_ranges.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/usr/lib/python3.13/importlib/__init__.py:88: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+loader/tests/reports/test_ranges.py:1: in &lt;module&gt;
+    import hypothesis.strategies as st
+E   ModuleNotFoundError: No module named 'hypothesis'</error></testcase></testsuite></testsuites>
